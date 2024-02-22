@@ -1,0 +1,10 @@
+
+zone "dimasgodim.com"{
+    type master;
+    file "/etc/bind/dimasgodim.com";
+};
+
+zone "10.10.10.in-addr.arpa"{
+    type master;
+    file "/etc/bind/dimasgodim.com.reverse";
+};

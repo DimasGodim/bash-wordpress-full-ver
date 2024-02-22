@@ -1,0 +1,14 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	dimasgodim.com. root.dimasgodim.com. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	dimasgodim.com.
+69	IN	PTR	dimasgodim.com.
+69	IN	PTR	www.dimasgodim.com.
